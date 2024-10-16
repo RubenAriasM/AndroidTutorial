@@ -30,13 +30,13 @@ public class IntentExplicito extends AppCompatActivity {
 
         Button buttonComprar = findViewById(R.id.buttonComprar);
 
-        EditText editTextComprar = findViewById(R.id.editTextComida);
-        EditText editTextBebida = findViewById(R.id.editTextBebida);
+
 
         buttonComprar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                EditText editTextComprar = findViewById(R.id.editTextComida);
+                EditText editTextBebida = findViewById(R.id.editTextBebida);
                 Intent i = new Intent(IntentExplicito.this,IntentImplicito.class);
 
                 //Add parametres

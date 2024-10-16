@@ -18,9 +18,7 @@
         <activity
             android:name=".intents.IntentImplicito"
             android:exported="false" />
-        <activity
-            android:name=".intents.IntentExplicito"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
